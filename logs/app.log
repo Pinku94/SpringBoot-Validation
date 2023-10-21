@@ -1,0 +1,47 @@
+2023-10-22 00:40:57,428 INFO [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:40:57,489 INFO [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:40:58,695 INFO [main] Started PersonRepositoryTest in 7.885 seconds (process running for 19.341)
+2023-10-22 00:40:59,684 INFO [main] Restart disabled due to context in which it is running
+2023-10-22 00:40:59,765 INFO [main] Starting PersonServiceTest using Java 17.0.9 with PID 2772 (started by admin in C:\codebase\Spring_Validation_Others)
+2023-10-22 00:40:59,766 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:40:59,786 INFO [main] Started PersonServiceTest in 0.105 seconds (process running for 20.432)
+2023-10-22 00:40:59,968 INFO [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:42:20,976 INFO [main] Restart disabled due to context in which it is running
+2023-10-22 00:42:21,551 INFO [main] Starting PersonControllerTest using Java 17.0.9 with PID 16216 (started by admin in C:\codebase\Spring_Validation_Others)
+2023-10-22 00:42:21,553 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:42:21,976 INFO [main] Started PersonControllerTest in 1.014 seconds (process running for 3.87)
+2023-10-22 00:42:24,070 INFO [main] store the Person::com.pinku.validation.entity.Person@479ac2cb
+2023-10-22 00:44:34,785 INFO [main] Restart disabled due to context in which it is running
+2023-10-22 00:44:35,352 INFO [main] Starting PersonControllerTest using Java 17.0.9 with PID 1376 (started by admin in C:\codebase\Spring_Validation_Others)
+2023-10-22 00:44:35,354 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:44:35,735 INFO [main] Started PersonControllerTest in 0.978 seconds (process running for 3.681)
+2023-10-22 00:44:38,212 INFO [main] store the Person::com.pinku.validation.entity.Person@479ac2cb
+2023-10-22 00:45:32,304 INFO [main] Restart disabled due to context in which it is running
+2023-10-22 00:45:34,024 INFO [main] Starting TransactionApplicationTests using Java 17.0.9 with PID 18212 (started by admin in C:\codebase\Spring_Validation_Others)
+2023-10-22 00:45:34,028 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:45:36,602 INFO [main] Started TransactionApplicationTests in 4.377 seconds (process running for 12.706)
+2023-10-22 00:45:42,576 INFO [main] Restart disabled due to context in which it is running
+2023-10-22 00:45:42,775 INFO [main] Starting PersonControllerTest using Java 17.0.9 with PID 18212 (started by admin in C:\codebase\Spring_Validation_Others)
+2023-10-22 00:45:42,777 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:45:42,933 INFO [main] Started PersonControllerTest in 0.356 seconds (process running for 19.037)
+2023-10-22 00:45:47,889 INFO [main] store the Person::com.pinku.validation.entity.Person@703eead0
+2023-10-22 00:45:48,184 INFO [main] Could not detect default configuration classes for test class [com.pinku.validation.repository.PersonRepositoryTest]: PersonRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-22 00:45:48,499 INFO [main] Found @SpringBootConfiguration com.pinku.validation.SpringValidationApplication for test class com.pinku.validation.repository.PersonRepositoryTest
+2023-10-22 00:45:48,513 INFO [main] Restart disabled due to context in which it is running
+2023-10-22 00:45:48,639 INFO [main] Starting PersonRepositoryTest using Java 17.0.9 with PID 18212 (started by admin in C:\codebase\Spring_Validation_Others)
+2023-10-22 00:45:48,639 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:45:49,669 INFO [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:45:49,926 INFO [main] Finished Spring Data repository scanning in 216 ms. Found 1 JPA repository interfaces.
+2023-10-22 00:45:50,159 INFO [main] Replacing 'dataSource' DataSource bean with embedded version
+2023-10-22 00:45:51,335 INFO [main] Starting embedded database: url='jdbc:h2:mem:68789706-bce3-4279-9200-b42005bac839;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-10-22 00:45:56,560 INFO [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:45:57,120 INFO [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-22 00:45:58,133 INFO [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-22 00:46:03,348 INFO [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:46:03,403 INFO [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:46:06,096 INFO [main] Started PersonRepositoryTest in 17.584 seconds (process running for 42.201)
+2023-10-22 00:46:07,691 INFO [main] Restart disabled due to context in which it is running
+2023-10-22 00:46:07,838 INFO [main] Starting PersonServiceTest using Java 17.0.9 with PID 18212 (started by admin in C:\codebase\Spring_Validation_Others)
+2023-10-22 00:46:07,842 INFO [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:46:07,898 INFO [main] Started PersonServiceTest in 0.209 seconds (process running for 44.002)
+2023-10-22 00:46:08,082 INFO [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'

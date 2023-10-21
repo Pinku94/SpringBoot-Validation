@@ -17,15 +17,27 @@ import java.util.Map;
 public class PersonGlobalException {
 
     Date ld = new Date();
-    @ExceptionHandler(userPersonException.class)
-    public ResponseEntity<PersonErrorResponse> handleUserPersonException(userPersonException ex){
+    @ExceptionHandler(UserPersonException.class)
+    public ResponseEntity<PersonErrorResponse> handleUserPersonException(UserPersonException ex){
 
 
-        PersonErrorResponse perror = new PersonErrorResponse(
-                ex.getMessage(), HttpStatus.FORBIDDEN.value(), "Forbidden",ld.getTime()
+        PersonErrorResponse personError = new PersonErrorResponse(
+                ex.getMessage(), HttpStatus.BAD_REQUEST.value(), "Forbidden",ld.getTime()
         );
 
-        return new ResponseEntity<>(perror,HttpStatus.FORBIDDEN);
+        return new ResponseEntity<>(personError,HttpStatus.BAD_REQUEST);
+
+    }
+
+    @ExceptionHandler(NoDataFoundException.class)
+    public ResponseEntity<PersonErrorResponse> handleNoDataFoundException(NoDataFoundException ex){
+
+
+        PersonErrorResponse personError = new PersonErrorResponse(
+                ex.getMessage(), HttpStatus.NOT_FOUND.value(), "Forbidden",ld.getTime()
+        );
+
+        return new ResponseEntity<>(personError,HttpStatus.NOT_FOUND);
 
     }
 

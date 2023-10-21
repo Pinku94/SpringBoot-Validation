@@ -62,5 +62,11 @@
     <root level="error">
         <appender-ref ref="CONSOLE"/>
     </root>
+    <logger name="com.pinku.transaction.springtransactions" level="warn" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+    </root>
 
 </configuration>
